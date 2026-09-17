@@ -4,4 +4,3 @@ numero = int(input('Digite o valor que deseja multiplicar: '))
 tabuada = int(input('Digite até qual posição da tabuada deseja multiplicar: '))
 for n in range(1,tabuada+1):
     print (numero*n)
-    
