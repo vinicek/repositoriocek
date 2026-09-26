@@ -7,5 +7,5 @@ for i in range (0,5):
     numeros.append(numero)
 
 numeros_inversos = numeros.copy()
-numeros_inversos.sort(reverse=True)
+numeros_inversos.reverse()
 print(numeros_inversos)
